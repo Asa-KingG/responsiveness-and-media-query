@@ -1,0 +1,84 @@
+﻿{
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    min-height: 100vh;
+    font-size: 20px;
+    font-family: poppins;
+    background-images: bg-into-desktop.png;
+}
+
+main {
+    width: 100%;
+    background: linear-gradient(rgba(255,102,227,0.5),rgba(255,102,227,0.5)),url(bg-into-desktop.png);
+    background-position: center;
+    background-images: bg-into-desktop.png;
+    background-size: cover;
+    min-height: 100vh;
+    padding-left: 30%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin: auto;
+}
+
+button {
+    width: 40%;
+    padding: 3px;
+    border: 0;
+    border-radius: 5px;
+    background-color: hsl(241, 79%, 57%);
+    align: left;
+    margin: auto;
+}
+
+    button a {
+        width: 80px;
+        border: 0;
+        font-size: 15px;
+        font-family: poppins;
+        text-decoration: none;
+        align: left;
+        margin: auto;
+        transition: 0.4s ease;
+    }
+
+        button a:hover {
+            color: hsl(0, 0%, 100%);
+        }
+
+div. {
+    padding: 15px 20px;
+    display: flex;
+    margin-bottom: 15px;
+    height: 200px;
+    max-width: 30px;
+    align-items: left;
+    border-radius: 5px;
+    position: relative;
+}
+
+form {
+    background-color: hsl(0, 0%, 100%);
+    padding: 2em;
+    border: 1px solid #dddddd;
+    width: 30%;
+    border-radius: 5px;
+}
+
+input {
+    margin: auto;
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+    input:hover {
+        color: hsl(241, 79%, 57%);
+    }
